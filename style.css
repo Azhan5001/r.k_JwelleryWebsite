@@ -132,7 +132,7 @@ nav ul li a:hover::after {
     width: 600px; /* Width of the arch shape */
     height: 800px; /* Height of the arch shape */
     position: relative;
-    top: 20%;
+    top: 15%;
     left: 55%;
     border-radius: 300px 300px 0 0; /* Arch effect for the top */
     overflow: hidden; /* Ensures a clean cut-off for the shape */
