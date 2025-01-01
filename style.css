@@ -577,6 +577,13 @@ nav li:nth-child(1){
     #navHeaderSecond .bookNowIcon, #navHeaderSecond .profileIcon{
         display: none;
     }
+    nav li{
+
+        display: flex;
+        margin: 0 0 0 30px;
+        justify-content: start;
+        align-items: center;
+    }
     .photoContainer{
         left: 25%;
         width: 80%;
@@ -589,8 +596,12 @@ nav li:nth-child(1){
     }
     .aboutBlockText{
         height: 300%;
+        font-size: 1.2rem;
     }
 
+    #aboutBlock a{
+        scale: 0.7;
+    }
 
 
 }
